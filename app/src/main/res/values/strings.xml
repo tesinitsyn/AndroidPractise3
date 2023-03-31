@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AndroidPractise3</string>
+    <string name="first_linear_element">firstLinearElement</string>
+    <string name="second_linear_element">second Linear Element</string>
+    <string name="place_for_text">Place for text</string>
+    <string name="just_marusya">just marusya</string>
+    <string name="put_text_hear">template text</string>
+    <string name="hello_world_gen2">Hello world gen2</string>
+    <string name="cassete_pic">cassete pic</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="input_text"> Input text here</string>
+    <string name="press_this">Display New Text</string>
+    <string name="coach">Coach</string>
+    <string name="sportsman">sportsman</string>
+    <string name="name">Name</string>
+    <string name="surname">Surname</string>
+    <string name="e_mail">E-mail</string>
+    <string name="return_button">Return</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
