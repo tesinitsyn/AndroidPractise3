@@ -42,7 +42,18 @@ public class ChooseRole extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-//
+        Button sportsmanButton = (Button) view.findViewById(R.id.sportsman_button);
+
+        sportsmanButton.setOnClickListener(vie -> {
+            RegistrationFragment registrationFragment = RegistrationFragment.newInstance();
+            requireActivity().getSupportFragmentManager().beginTransaction()
+                    .replace(R.id.fragment_container_view, registrationFragment)
+                    .addToBackStack(TAG)
+                    .commit();
+
+            Log.i(TAG, "registration activity started");
+        });
+
         Log.i(TAG, "onViewCreated");
         Toast.makeText(getContext(), "onViewCreated", Toast.LENGTH_SHORT).show();
     }
